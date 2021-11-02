@@ -12,3 +12,14 @@ sudo firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address
 sudo firewall-cmd --reload
 sudo firewall-cmd --list-all 
 ```
+3. Allow http, https and ssh connections using firewall;
+
+```
+# sudo firewall-cmd --zone=public --permanent --add-service=http
+
+# sudo firewall-cmd --zone=public --permanent --add-service=https
+
+# sudo firewall-cmd --zone=public --permanent --add-service=ssh
+
+# sudo firewall-cmd --zone=public --permanent --list-services
+```
