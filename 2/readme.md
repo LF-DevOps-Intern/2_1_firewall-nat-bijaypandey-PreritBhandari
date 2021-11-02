@@ -27,9 +27,9 @@ ifconfig ethp0s3 192.168.56.102 netmask 255.255.255.0
 
 7) Now we have to tell Centos2 to use enp0s8 from Centos1, for that on Centos2 device:
 ```
-        # route add default gw 192.168.56.101
+ # route add default gw 192.168.56.101
 
-        # route
+`# route
  ```
 8) We can now share our connection from Centos1 to Centos2 with the following commands:
 
@@ -41,7 +41,7 @@ ifconfig ethp0s3 192.168.56.102 netmask 255.255.255.0
 ```
 9) Thus, in this way we shared the internet connection from Centos1 to Centos2 through NAT. This can be verified by executing the ping command in the Centos2 device as below,
 ```
-    # ping 31.13.79.35
+# ping 31.13.79.35
  ```
 
 
