@@ -2,12 +2,12 @@
 
 1) In the first VM (named as, Centos1) we set up two network interfaces:
 
-i) Bridged Adapter (enp0s3)
-ii) Host-Only Adapter (enp0s8)
+  i) Bridged Adapter (enp0s3)
+  ii) Host-Only Adapter (enp0s8)
 
 2) Similarly, we set up another network interface in the second VM (named as, Centos2):
 
-i) Host-Only Adapter (enp0s3)
+  i) Host-Only Adapter (enp0s3)
 
 
 3) Configuring the enp0s8 on Centos1 as,
