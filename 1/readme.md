@@ -7,8 +7,9 @@
 
 2. Blocking ip using firewalld permanently;
 
-``` sudo firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='xxx.xxx.xxx.xxx' reject"
+``` 
+sudo firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='xxx.xxx.xxx.xxx' reject"
+sudo firewall-cmd --reload
+sudo firewall-cmd --list-all 
 
-    sudo firewall-cmd --reload
-
-    sudo firewall-cmd --list-all ```
+```
