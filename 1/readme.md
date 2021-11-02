@@ -11,5 +11,4 @@
 sudo firewall-cmd --permanent --add-rich-rule="rule family='ipv4' source address='xxx.xxx.xxx.xxx' reject"
 sudo firewall-cmd --reload
 sudo firewall-cmd --list-all 
-
 ```
